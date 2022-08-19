@@ -1,0 +1,26 @@
+{
+	"interface": {
+		"patterns": {
+			"cross_nordic": "Nordic cross",
+			"cross_symmetric": "Symmetric cross",
+			"saltire": "Saltire",
+			"triband_vertical": "Vertical tribands"
+		},
+		"shape": {
+			"rectangle": "Rectangle"
+		},
+		"userType": {
+			"sovereign_state": "Sovereign state"
+		}
+	},
+	"flags": {
+		"denmark": "Denmark",
+		"france_republic": "French Republic, \"Tricolor\"",
+		"united_kingdom_union_jack": "United Kingdom, \"Union Jack\""
+	},
+	"usages": {
+		"denmark": "Denmark",
+		"french_republic_5": "French Fifth Republic",
+		"united_kingdom_gbni": "United Kingdom of Great Britain and Northern Ireland"
+	}
+}
