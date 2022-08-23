@@ -1,18 +1,38 @@
+/*Main parts*/
 body {
 	margin: 0;
 	background-color: #F5F6FA;
 	font-family: Arial, Helvetica, sans-serif;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	width: 100%;
+	min-height: 100%;
 }
 header {
+	grid-column: 1 / span 2;
 	background-color: #FFFFFF;
-	padding: 12px;
 	position: sticky;
 	padding: 20px 15px;
 	top: 0;
 	left: 0;
 	display: flex;
 	font-size: 1.1em;
+	z-index: 2;
 }
+section, aside {
+	margin: 50px 35px 10px 25px;
+}
+footer {
+	grid-column: 1 / span 2;
+}
+
+.textFlexbox, .imgFlexbox {
+	margin-top: 8px;
+	clear: both;
+	display: flex;
+	flex-wrap: wrap;
+}
+/* HEADER */
 header > div {
 	flex: initial;
 	align-self: baseline;
@@ -30,10 +50,8 @@ header a {
 	margin: 0 10px 0 10px;
 }
 
-aside {
-	width: 25%;
-	margin: 25px 35px 0 25px;
-}
+/* ASIDE */
+
 aside > fieldset {
 	background-color: #FFFFFF;
 	border-radius: 15px;
@@ -41,6 +59,9 @@ aside > fieldset {
 	margin-top: 25px;
 	border: none;
 	position: relative;
+}
+aside > fieldset:first-child {
+	margin-top: 0;
 }
 aside > fieldset > legend {
 	display: block;
@@ -64,30 +85,24 @@ aside > button {
 	cursor: pointer;
 }
 
-.textCheckbox, .imgCheckbox {
-	margin-top: 8px;
-	clear: both;
-	display: flex;
-	flex-wrap: wrap;
-}
 input[type="checkbox"] {
 	display: none;
 }
-.imgCheckbox input[type="checkbox"] + label {
+.imgFlexbox input[type="checkbox"] + label {
 	min-width: calc(25% - 16px);
 	max-width: calc(34% + 16px);
 	flex: 1;
 	flex-direction: row;
 	margin: 2px;
 }
-.imgCheckbox input[type="checkbox"] + label > img {
+.imgFlexbox input[type="checkbox"] + label > img {
 	width: 100%;
 	cursor: pointer;
 }
-.imgCheckbox input[type="checkbox"]:checked + label > img {
+.imgFlexbox input[type="checkbox"]:checked + label > img {
 	filter: invert(100%);
 }
-.textCheckbox input[type="checkbox"] + label {
+.textFlexbox input[type="checkbox"] + label {
 	flex: 1;
 	text-align: center;
 	padding: 10px;
@@ -99,7 +114,7 @@ input[type="checkbox"] {
 	color: black;
 	background-color: white;
 }
-.textCheckbox input[type="checkbox"]:checked + label {
+.textFlexbox input[type="checkbox"]:checked + label {
 	color: white;
 	background-color: black;
 }
@@ -123,3 +138,26 @@ input[type="checkbox"] + label[for="color-red"] { border-color: #EF4135; }
 input[type="checkbox"]:checked + label[for="color-red"] { background-color: #EF4135; }
 input[type="checkbox"] + label[for="color-white"] { border: 2px dotted #000000 }
 input[type="checkbox"]:checked + label[for="color-white"] { background-color: snow; color: #000000; border: 2px solid snow; }
+
+/* SECTION */
+
+section {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: baseline;
+}
+section > article {
+	background-color: #FFFFFF;
+	border-radius: 15px;
+	margin: 15px;
+	width: 250px;
+}
+section > article > img {
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+}
+section > article > h2 {
+	text-align: center;
+}

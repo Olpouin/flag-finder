@@ -3,6 +3,8 @@
 	<head>
 		<title>Flag Finder</title>
 		<link rel="stylesheet" type="text/css" href="data/style.css">
+		<script src="data/script.js"></script>
+		<meta charset="utf-8">
 	</head>
 	<body>
 		<header>
@@ -16,7 +18,7 @@
 			<fieldset>
 				<legend>Colors</legend>
 				The colors found on the flag, including complex drawings if present. Not all colors present needs to be picked.
-				<div class="textCheckbox">
+				<div class="textFlexbox">
 					<input type="checkbox" id="color-black" name="color" value="black">
 					<label for="color-black"><!--Sable-->Black</label>
 					<input type="checkbox" id="color-brown" name="color" value="brown">
@@ -42,7 +44,7 @@
 			<fieldset>
 				<legend>Patterns</legend>
 				Common patterns that can be found on flags.
-				<div class="imgCheckbox">
+				<div class="imgFlexbox">
 					<input type="checkbox" id="pattern-bend" name="pattern" value="bend">
 					<label for="pattern-bend"><img src="data/icons/patterns/bend.svg" alt="Bend"></label>
 					<input type="checkbox" id="pattern-bordure" name="pattern" value="bordure">
@@ -74,11 +76,19 @@
 			</fieldset>
 			<fieldset>
 					<legend>Shape</legend>
+					The shape of the flag: Square, rectangular, swallow-tail... Select multiple or none if unsure.
+					<br><br>TODO - Square, rectangle, swallow-tail, burgee, 
 			</fieldset>
 			<button>Search</button>
 		</aside>
 		<section>
-			<!-- -->
+			<article>
+				<img src="data/flags/images/france_republic-dark.svg">
+				<h2>French Republic, "Tricolor"</h2>
+			</article>
 		</section>
+		<footer>
+			Footer blablah
+		</footer>
 	</body>
 </html>
