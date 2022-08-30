@@ -15,12 +15,14 @@
 	},
 	"flags": {
 		"denmark": "Denmark",
-		"france_republic": "French Republic, \"Tricolor\"",
+		"france_republic": "France, \"Tricolor\"",
+		"ireland_republic": "Ireland, \"Irish tricolor\"",
 		"united_kingdom_union_jack": "United Kingdom, \"Union Jack\""
 	},
 	"usages": {
 		"denmark": "Denmark",
 		"french_republic_5": "French Fifth Republic",
+		"ireland_republic": "Republic of Ireland",
 		"united_kingdom_gbni": "United Kingdom of Great Britain and Northern Ireland"
 	}
 }

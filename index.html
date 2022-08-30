@@ -4,6 +4,7 @@
 		<title>Flag Finder</title>
 		<link rel="stylesheet" type="text/css" href="data/style.css">
 		<script src="data/script.js"></script>
+		<script src="data/defer.js" defer></script>
 		<meta charset="utf-8">
 	</head>
 	<body>
@@ -20,25 +21,25 @@
 				The colors found on the flag, including complex drawings if present. Not all colors present needs to be picked.
 				<div class="textFlexbox">
 					<input type="checkbox" id="color-black" name="color" value="black">
-					<label for="color-black"><!--Sable-->Black</label>
+					<label for="color-black" tabindex="0"><!--Sable-->Black</label>
 					<input type="checkbox" id="color-brown" name="color" value="brown">
-					<label for="color-brown"><!--Tenné-->Brown</label>
+					<label for="color-brown" tabindex="0"><!--Tenné-->Brown</label>
 					<input type="checkbox" id="color-blue" name="color" value="blue">
-					<label for="color-blue"><!--Azure-->Blue</label>
+					<label for="color-blue" tabindex="0"><!--Azure-->Blue</label>
 					<input type="checkbox" id="color-yellow" name="color" value="yellow">
-					<label for="color-yellow"><!--Or-->Yellow</label>
+					<label for="color-yellow" tabindex="0"><!--Or-->Yellow</label>
 					<input type="checkbox" id="color-green" name="color" value="green">
-					<label for="color-green"><!--Vert-->Green</label>
+					<label for="color-green" tabindex="0"><!--Vert-->Green</label>
 					<input type="checkbox" id="color-orange" name="color" value="orange">
-					<label for="color-orange">Orange</label>
+					<label for="color-orange" tabindex="0">Orange</label>
 					<input type="checkbox" id="color-pink" name="color" value="pink">
-					<label for="color-pink">Pink</label>
+					<label for="color-pink" tabindex="0">Pink</label>
 					<input type="checkbox" id="color-purple" name="color" value="purple">
-					<label for="color-purple"><!--Purpure-->Purple</label>
+					<label for="color-purple" tabindex="0"><!--Purpure-->Purple</label>
 					<input type="checkbox" id="color-red" name="color" value="red">
-					<label for="color-red"><!--Gules-->Red</label>
+					<label for="color-red" tabindex="0"><!--Gules-->Red</label>
 					<input type="checkbox" id="color-white" name="color" value="white">
-					<label for="color-white"><!--Argent-->White</label>
+					<label for="color-white" tabindex="0"><!--Argent-->White</label>
 				</div>
 			</fieldset>
 			<fieldset>
@@ -46,27 +47,27 @@
 				Common patterns that can be found on flags.
 				<div class="imgFlexbox">
 					<input type="checkbox" id="pattern-bend" name="pattern" value="bend">
-					<label for="pattern-bend"><img src="data/icons/patterns/bend.svg" alt="Bend"></label>
+					<label for="pattern-bend" tabindex="0"><img src="data/icons/patterns/bend.svg" alt="Bend"></label>
 					<input type="checkbox" id="pattern-bordure" name="pattern" value="bordure">
-					<label for="pattern-bordure"><img src="data/icons/patterns/bordure.svg" alt="Bordure"></label>
+					<label for="pattern-bordure" tabindex="0"><img src="data/icons/patterns/bordure.svg" alt="Bordure"></label>
 					<input type="checkbox" id="pattern-canton" name="pattern" value="canton">
-					<label for="pattern-canton"><img src="data/icons/patterns/canton.svg" alt="Canton"></label>
+					<label for="pattern-canton" tabindex="0"><img src="data/icons/patterns/canton.svg" alt="Canton"></label>
 					<input type="checkbox" id="pattern-pall" name="pattern" value="pall">
-					<label for="pattern-pall"><img src="data/icons/patterns/pall.svg" alt="Pall"></label>
+					<label for="pattern-pall" tabindex="0"><img src="data/icons/patterns/pall.svg" alt="Pall"></label>
 					<input type="checkbox" id="pattern-cross_greek" name="pattern" value="cross_greek">
-					<label for="pattern-cross_greek"><img src="data/icons/patterns/cross_greek.svg" alt="Greek cross"></label>
+					<label for="pattern-cross_greek" tabindex="0"><img src="data/icons/patterns/cross_greek.svg" alt="Greek cross"></label>
 					<input type="checkbox" id="pattern-cross_nordic" name="pattern" value="cross_nordic">
-					<label for="pattern-cross_nordic"><img src="data/icons/patterns/cross_nordic.svg" alt="Nordic cross"></label>
+					<label for="pattern-cross_nordic" tabindex="0"><img src="data/icons/patterns/cross_nordic.svg" alt="Nordic cross"></label>
 					<input type="checkbox" id="pattern-cross_symmetric" name="pattern" value="cross_symmetric">
-					<label for="pattern-cross_symmetric"><img src="data/icons/patterns/cross_symmetric.svg" alt="Symmetric cross"></label>
+					<label for="pattern-cross_symmetric" tabindex="0"><img src="data/icons/patterns/cross_symmetric.svg" alt="Symmetric cross"></label>
 					<input type="checkbox" id="pattern-cross_saltire" name="pattern" value="cross_saltire">
-					<label for="pattern-cross_saltire"><img src="data/icons/patterns/cross_saltire.svg" alt="Saltire"></label>
+					<label for="pattern-cross_saltire" tabindex="0"><img src="data/icons/patterns/cross_saltire.svg" alt="Saltire"></label>
 					<input type="checkbox" id="pattern-quadrisection" name="pattern" value="quadrisection">
-					<label for="pattern-quadrisection"><img src="data/icons/patterns/quadrisection.svg" alt="Quadrisection"></label>
+					<label for="pattern-quadrisection" tabindex="0"><img src="data/icons/patterns/quadrisection.svg" alt="Quadrisection"></label>
 					<input type="checkbox" id="pattern-triband_horizontal" name="pattern" value="triband_horizontal">
-					<label for="pattern-triband_horizontal"><img src="data/icons/patterns/triband_horizontal.svg" alt="Horizontal triband"></label>
+					<label for="pattern-triband_horizontal" tabindex="0"><img src="data/icons/patterns/triband_horizontal.svg" alt="Horizontal triband"></label>
 					<input type="checkbox" id="pattern-triband_vertical" name="pattern" value="triband_vertical">
-					<label for="pattern-triband_vertical"><img src="data/icons/patterns/triband_vertical.svg" alt="Vertical triband"></label>
+					<label for="pattern-triband_vertical" tabindex="0"><img src="data/icons/patterns/triband_vertical.svg" alt="Vertical triband"></label>
 				</div>
 			</fieldset>
 			<fieldset>
@@ -79,14 +80,9 @@
 					The shape of the flag: Square, rectangular, swallow-tail... Select multiple or none if unsure.
 					<br><br>TODO - Square, rectangle, swallow-tail, burgee, 
 			</fieldset>
-			<button>Search</button>
+			<button onclick="search()">Search</button>
 		</aside>
-		<section>
-			<article>
-				<img src="data/flags/images/france_republic-dark.svg">
-				<h2>French Republic, "Tricolor"</h2>
-			</article>
-		</section>
+		<section id="flagSection"></section>
 		<footer>
 			Footer blablah
 		</footer>

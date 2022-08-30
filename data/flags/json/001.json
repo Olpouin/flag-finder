@@ -58,5 +58,29 @@
 				"url": "https://en.wikipedia.org/wiki/Flag_of_Denmark"
 			}
 		}
+	},
+	{
+		"id": "ireland_republic",
+		"colors": [ "green", "orange", "white" ],
+		"patterns": [ "triband_vertical" ],
+		"shape": "rectangle",
+		"usage": [{
+			"type": "sovereign_state",
+			"name": "ireland_republic",
+			"date": "19378-07-01/current"
+		},{
+			"type": "sovereign_state",
+			"name": "ireland_free_state",
+			"date": "1922-12-06/1937-12-29"
+		}],
+		"data": {
+			"adoption": "1916-??-??",
+			"proportion":"1:2",
+			"use": [ "f_civil", "f_state", "f_war", "e_civil", "e_state", "e_war" ],
+			"source": {
+				"name": "Wikipedia",
+				"url": "https://en.wikipedia.org/wiki/Flag_of_Ireland"
+			}
+		}
 	}
 ]

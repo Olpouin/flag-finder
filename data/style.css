@@ -153,6 +153,7 @@ section > article {
 	border-radius: 15px;
 	margin: 15px;
 	width: 250px;
+	cursor: pointer;
 }
 section > article > img {
 	width: 100%;
@@ -160,4 +161,5 @@ section > article > img {
 }
 section > article > h2 {
 	text-align: center;
+	word-wrap: anywhere;
 }
