@@ -1,65 +1,4 @@
-/*const flagData = [
-	{
-		"id": "france_republic",
-		"colors": [ "blue", "red", "white" ],
-		"patterns": [ "triband_vertical" ],
-		"shape": "rectangle",
-		"usage": [{
-			"type": "sovereign_state",
-			"name": "french_republic_5",
-			"date": "1958-09-28/current"
-		}],
-		"data": {
-			"adoption": "1794-02-15",
-			"proportion": "2:3",
-			"use": [ "f_civil", "f_state", "f_war" ],
-			"source": {
-				"name": "Wikipedia",
-				"url": "https://en.wikipedia.org/wiki/Flag_of_France"
-			}
-		}
-	},
-	{
-		"id": "united_kingdom_union_jack",
-		"colors": [ "blue", "red", "white" ],
-		"patterns": [ "saltire", "cross_symmetric" ],
-		"shape": "rectangle",
-		"usage": [{
-			"type": "sovereign_state",
-			"name": "united_kingdom_gbni",
-			"date": "1801-01-01/current"
-		}],
-		"data": {
-			"adoption": "1801-01-01",
-			"proportion": "1:2",
-			"use": [ "f_civil", "f_state", "f_war" ],
-			"source": {
-				"name": "Wikipedia",
-				"url": "https://en.wikipedia.org/wiki/Flag_of_the_United_Kingdom"
-			}
-		}
-	},
-	{
-		"id": "denmark",
-		"colors": [ "red", "white" ],
-		"patterns": [ "cross_nordic" ],
-		"shape": "rectangle",
-		"usage": [{
-			"type": "sovereign_state",
-			"name": "denmark",
-			"date": "1625-??-??/current"
-		}],
-		"data": {
-			"adoption": "1219-??-??",
-			"proportion": "28:34 - 28:37",
-			"use": [ "f_civil", "e_civil" ],
-			"source": {
-				"name": "Wikipedia",
-				"url": "https://en.wikipedia.org/wiki/Flag_of_Denmark"
-			}
-		}
-	}
-];*/
+let flagData = [];
 function readTextFile(file, callback) {
 	var rawFile = new XMLHttpRequest();
 	rawFile.overrideMimeType("application/json");
@@ -71,10 +10,9 @@ function readTextFile(file, callback) {
 	}
 	rawFile.send(null);
 }
-let flagData = [];
 readTextFile("data/flags/json/001.json", function(text){
 	var data = JSON.parse(text);
-	flagData.push(data);
+	flagData.push(...data);
 });
 
 /**
