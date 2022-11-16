@@ -105,7 +105,7 @@
 	},
 	{
 		"id":"spain_kingdom",
-		"colors":["red","yellow","blue","pink","green"],
+		"colors":["red","yellow","blue","pink","green","white"],
 		"patterns":["triband_horizontal"],
 		"symbols":["coat_of_arm","lion"],
 		"shape":"rectangle",
@@ -141,6 +141,69 @@
 		}
 	},
 	{
+		"id":"andorra_principality",
+		"colors":["blue","yellow","red","blue","brown","white"],
+		"patterns":["triband_vertical"],
+		"symbols":["coat_of_arm","bull"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1866-??-??",
+			"proportion":"7:10",
+			"use":["f_state"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Andorra"
+			}
+		}
+	},
+	{
+		"id":"italy_republic",
+		"colors":["green","white","red"],
+		"patterns":["triband_vertical"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1946-06-18",
+			"proportion":"2:3",
+			"use":["f_civil","f_state","f_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Italy"
+			}
+		}
+	},
+	{
+		"id":"san_marino_republic",
+		"colors":["white","blue","green","yellow"],
+		"patterns":["bicolor_horizontal"],
+		"symbols":["coat_of_arm"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"18??-??-??",
+			"proportion":"3:4",
+			"use":["f_state","f_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_San_Marino"
+			}
+		}
+	},
+	{
+		"id":"papal_states",
+		"colors":["yellow","white","red","gray"],
+		"patterns":["bicolor_vertical"],
+		"symbols":["coat_of_arm"],
+		"shape":"square",
+		"data":{
+			"adoption":"1929-05-07",
+			"proportion":"1:1",
+			"use":["f_civil","f_state","f_war","e_civil","e_state","e_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Vatican_City"
+			}
+		}
+	},
+	{
 		"id":"iceland_republic",
 		"colors":["blue","white","red"],
 		"patterns":["cross_nordic"],
@@ -152,6 +215,51 @@
 			"source":{
 				"name":"Wikipedia",
 				"url":"https://en.wikipedia.org/wiki/Flag_of_Iceland"
+			}
+		}
+	},
+	{
+		"id": "norway_kingdom",
+		"colors":["red","white","blue"],
+		"patterns":["cross_nordic"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1821-07-13",
+			"proportion":"8:11",
+			"use":["f_civil","e_civil"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Norway"
+			}
+		}
+	},
+	{
+		"id":"sweden_kingdom",
+		"colors":["blue","yellow"],
+		"patterns":["cross_nordic"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1906-06-22",
+			"proportion":"5:8",
+			"use":["f_civil","f_state","e_civil","e_state"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Sweden"
+			}
+		}
+	},
+	{
+		"id":"finland_republic",
+		"colors":["blue","white"],
+		"patterns":["cross_nordic"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1918-05-28",
+			"proportion":"11:28",
+			"use":["f_civil","e_civil"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Finland"
 			}
 		}
 	}
