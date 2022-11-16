@@ -71,7 +71,7 @@ function readTextFile(file, callback) {
 	}
 	rawFile.send(null);
 }
-
+let flagData = [];
 readTextFile("data/flags/json/001.json", function(text){
 	var data = JSON.parse(text);
 	flagData.push(data);
