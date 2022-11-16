@@ -1,4 +1,4 @@
-const flagData = [
+/*const flagData = [
 	{
 		"id": "france_republic",
 		"colors": [ "blue", "red", "white" ],
@@ -59,7 +59,7 @@ const flagData = [
 			}
 		}
 	}
-];
+];*/
 function readTextFile(file, callback) {
 	var rawFile = new XMLHttpRequest();
 	rawFile.overrideMimeType("application/json");
@@ -72,10 +72,10 @@ function readTextFile(file, callback) {
 	rawFile.send(null);
 }
 
-/*readTextFile("data/flags/json/001.json", function(text){
+readTextFile("data/flags/json/001.json", function(text){
 	var data = JSON.parse(text);
 	flagData.push(data);
-});*/
+});
 
 /**
  * Search for a flag.
