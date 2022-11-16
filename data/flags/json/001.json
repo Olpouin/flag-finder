@@ -1,85 +1,157 @@
 [
 	{
-		"id": "france_republic",
-		"colors": [ "blue", "red", "white" ],
-		"patterns": [ "triband_vertical" ],
-		"shape": "rectangle",
-		"usage": [{
-			"type": "sovereign_state",
-			"name": "french_republic_5",
-			"date": "1958-09-28/current"
+		"id":"france_republic",
+		"colors":["blue","red","white"],
+		"patterns":["triband_vertical"],
+		"shape":"rectangle",
+		"usage":[{
+			"type":"sovereign_state",
+			"name":"french_republic_5",
+			"date":"1958-09-28/current"
 		}],
-		"data": {
-			"adoption": "1794-02-15",
-			"proportion": "2:3",
-			"use": [ "f_civil", "f_state", "f_war" ],
-			"source": {
-				"name": "Wikipedia",
-				"url": "https://en.wikipedia.org/wiki/Flag_of_France"
+		"data":{
+			"adoption":"1794-02-15",
+			"proportion":"2:3",
+			"use":["f_civil","f_state","f_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_France"
 			}
 		}
 	},
 	{
-		"id": "united_kingdom_union_jack",
-		"colors": [ "blue", "red", "white" ],
-		"patterns": [ "saltire", "cross_symmetric" ],
-		"shape": "rectangle",
-		"usage": [{
-			"type": "sovereign_state",
-			"name": "united_kingdom_gbni",
-			"date": "1801-01-01/current"
+		"id":"france_republic-ensign",
+		"colors":["blue","red","white"],
+		"patterns":["triband_vertical"],
+		"shape":"rectangle",
+		"usage":[{
+			"type":"sovereign_state",
+			"name":"french_republic_5",
+			"date":"1853-05-17/current"
 		}],
-		"data": {
-			"adoption": "1801-01-01",
-			"proportion": "1:2",
-			"use": [ "f_civil", "f_state", "f_war" ],
-			"source": {
-				"name": "Wikipedia",
-				"url": "https://en.wikipedia.org/wiki/Flag_of_the_United_Kingdom"
+		"data":{
+			"adoption":"1853-05-17",
+			"proportion":"2:3",
+			"use":["e_civil","e_state","e_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_France"
 			}
 		}
 	},
 	{
-		"id": "denmark",
-		"colors": [ "red", "white" ],
-		"patterns": [ "cross_nordic" ],
-		"shape": "rectangle",
-		"usage": [{
-			"type": "sovereign_state",
-			"name": "denmark",
-			"date": "1625-??-??/current"
+		"id":"united_kingdom_union_jack",
+		"colors":["blue","red","white"],
+		"patterns":["saltire","cross_symmetric"],
+		"shape":"rectangle",
+		"usage":[{
+			"type":"sovereign_state",
+			"name":"united_kingdom_gbni",
+			"date":"1801-01-01/current"
 		}],
-		"data": {
-			"adoption": "1219-??-??",
-			"proportion": "28:34 - 28:37",
-			"use": [ "f_civil", "e_civil" ],
-			"source": {
-				"name": "Wikipedia",
-				"url": "https://en.wikipedia.org/wiki/Flag_of_Denmark"
-			}
-		}
-	},
-	{
-		"id": "ireland_republic",
-		"colors": [ "green", "orange", "white" ],
-		"patterns": [ "triband_vertical" ],
-		"shape": "rectangle",
-		"usage": [{
-			"type": "sovereign_state",
-			"name": "ireland_republic",
-			"date": "19378-07-01/current"
-		},{
-			"type": "sovereign_state",
-			"name": "ireland_free_state",
-			"date": "1922-12-06/1937-12-29"
-		}],
-		"data": {
-			"adoption": "1916-??-??",
+		"data":{
+			"adoption":"1801-01-01",
 			"proportion":"1:2",
-			"use": [ "f_civil", "f_state", "f_war", "e_civil", "e_state", "e_war" ],
-			"source": {
-				"name": "Wikipedia",
-				"url": "https://en.wikipedia.org/wiki/Flag_of_Ireland"
+			"use":["f_civil","f_state","f_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_the_United_Kingdom"
+			}
+		}
+	},
+	{
+		"id":"denmark",
+		"colors":["red","white"],
+		"patterns":["cross_nordic"],
+		"shape":"rectangle",
+		"usage":[{
+			"type":"sovereign_state",
+			"name":"denmark",
+			"date":"1625-??-??/current"
+		}],
+		"data":{
+			"adoption":"1219-??-??",
+			"proportion":"28:34 - 28:37",
+			"use":["f_civil","e_civil"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Denmark"
+			}
+		}
+	},
+	{
+		"id":"ireland_republic",
+		"colors":["green","orange","white"],
+		"patterns":["triband_vertical"],
+		"shape":"rectangle",
+		"usage":[{
+			"type":"sovereign_state",
+			"name":"ireland_republic",
+			"date":"19378-07-01/current"
+		},{
+			"type":"sovereign_state",
+			"name":"ireland_free_state",
+			"date":"1922-12-06/1937-12-29"
+		}],
+		"data":{
+			"adoption":"1916-??-??",
+			"proportion":"1:2",
+			"use":["f_civil","f_state","f_war","e_civil","e_state","e_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Ireland"
+			}
+		}
+	},
+	{
+		"id":"spain_kingdom",
+		"colors":["red","yellow","blue","pink","green"],
+		"patterns":["triband_horizontal"],
+		"symbols":["coat_of_arm","lion"],
+		"shape":"rectangle",
+		"usage":[{
+			"type":"sovereign_state",
+			"name":"spain_kingdom",
+			"date":"1981-10-05/current"
+		}],
+		"data":{
+			"adoption":"1981-10-05",
+			"proportion":"2:3",
+			"use":["f_civil","f_state","f_war","e_state","e_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Spain"
+			}
+		}
+	},
+	{
+		"id":"portugal_republic",
+		"colors":["red","green","yellow","white","blue"],
+		"patterns":["bicolor_vertical"],
+		"symbols":["coat_of_arm"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1911-06-30",
+			"proportion":"2:3",
+			"use":["f_civil","f_state","e_civil","e_state","e_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Portugal"
+			}
+		}
+	},
+	{
+		"id":"iceland_republic",
+		"colors":["blue","white","red"],
+		"patterns":["cross_nordic"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1944-06-17",
+			"proportion":"18:25",
+			"use":["f_civil","e_civil"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Iceland"
 			}
 		}
 	}
