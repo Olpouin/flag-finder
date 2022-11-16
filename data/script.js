@@ -11,10 +11,11 @@ function readTextFile(file, callback) {
 	rawFile.send(null);
 }
 
-//usage:
-readTextFile("data/flags/json/script.js", function(text){
+readTextFile("data/flags/json/001.json", function(text){
 	var data = JSON.parse(text);
 	flagData.push(data);
+});
+
 /**
  * Search for a flag.
  * @param {object} search Searching information.
