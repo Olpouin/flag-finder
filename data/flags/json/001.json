@@ -60,26 +60,6 @@
 		}
 	},
 	{
-		"id":"denmark",
-		"colors":["red","white"],
-		"patterns":["cross_nordic"],
-		"shape":"rectangle",
-		"usage":[{
-			"type":"sovereign_state",
-			"name":"denmark",
-			"date":"1625-??-??/current"
-		}],
-		"data":{
-			"adoption":"1219-??-??",
-			"proportion":"28:34 - 28:37",
-			"use":["f_civil","e_civil"],
-			"source":{
-				"name":"Wikipedia",
-				"url":"https://en.wikipedia.org/wiki/Flag_of_Denmark"
-			}
-		}
-	},
-	{
 		"id":"ireland_republic",
 		"colors":["green","orange","white"],
 		"patterns":["triband_vertical"],
@@ -157,6 +137,21 @@
 		}
 	},
 	{
+		"id":"monaco_principality",
+		"colors":["red","white"],
+		"patterns":["bicolor_horizontal"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1881-04-04",
+			"proportion":"4:5",
+			"use":["f_civil","e_civil"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Monaco"
+			}
+		}
+	},
+	{
 		"id":"italy_republic",
 		"colors":["green","white","red"],
 		"patterns":["triband_vertical"],
@@ -200,6 +195,26 @@
 			"source":{
 				"name":"Wikipedia",
 				"url":"https://en.wikipedia.org/wiki/Flag_of_Vatican_City"
+			}
+		}
+	},
+	{
+		"id":"denmark",
+		"colors":["red","white"],
+		"patterns":["cross_nordic"],
+		"shape":"rectangle",
+		"usage":[{
+			"type":"sovereign_state",
+			"name":"denmark",
+			"date":"1625-??-??/current"
+		}],
+		"data":{
+			"adoption":"1219-??-??",
+			"proportion":"28:34 - 28:37",
+			"use":["f_civil","e_civil"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Denmark"
 			}
 		}
 	},
@@ -260,6 +275,140 @@
 			"source":{
 				"name":"Wikipedia",
 				"url":"https://en.wikipedia.org/wiki/Flag_of_Finland"
+			}
+		}
+	},
+	{
+		"id":"luxembourg_grand_duchy",
+		"colors":["red","white","blue"],
+		"patterns":["triband_horizontal"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1848-??-??",
+			"proportion":"3:5",
+			"use":["f_civil","f_state","f_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Luxembourg"
+			}
+		}
+	},
+	{
+		"id":"belgium_kingdom",
+		"colors":["black","yellow","red"],
+		"patterns":["triband_vertical"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1831-01-23",
+			"proportion":"2:3",
+			"use":["f_civil","f_war","e_civil"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Belgium"
+			}
+		}
+	},
+	{
+		"id":"netherlands_kingdom",
+		"colors":["red","white","blue"],
+		"patterns":["triband_horizontal"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1574-??-??",
+			"proportion":"2:3",
+			"use":["f_civil","f_state","f_war","e_civil","e_state","e_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_the_Netherlands"
+			}
+		}
+	},
+	{
+		"id":"switzerland_confederation",
+		"colors":["red","white"],
+		"patterns":["cross_greek"],
+		"shape":"square",
+		"data":{
+			"adoption":"1841-??-??",
+			"proportion":"1:1",
+			"use":["f_civil","f_state","f_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Switzerland"
+			}
+		}
+	},
+	{
+		"id":"liechtenstein_principality",
+		"colors":["blue","red","yellow"],
+		"patterns":["bicolor_horizontal"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1982-06-30",
+			"proportion":"3:5",
+			"use":["f_civil","f_state"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Liechtenstein"
+			}
+		}
+	},
+	{
+		"id":"austria_republic",
+		"colors":["red","white"],
+		"patterns":["triband_horizontal"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1230",
+			"proportion":"2:3",
+			"use":["f_civil","e_civil"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Austria"
+			}
+		}
+	},
+	{
+		"id":"germany_federal_republic",
+		"colors":["black","red","yellow"],
+		"patterns":["triband_horizontal"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1919",
+			"proportion":"3:5",
+			"use":["f_civil","f_state","e_civil"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Germany"
+			}
+		}
+	},
+	{
+		"id":"poland_republic",
+		"colors":["white","red"],
+		"patterns":["bicolor_horizontal"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1807-07-09",
+			"proportion":"5:8",
+			"use":["f_civil","f_state","f_war"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_Poland"
+			}
+		}
+	},
+	{
+		"id":"czech_republic",
+		"colors":["blue","white","red"],
+		"shape":"rectangle",
+		"data":{
+			"adoption":"1920-03-30",
+			"proportion":"2:3",
+			"use":["f_civil","f_state","f_war","e_civil","e_state"],
+			"source":{
+				"name":"Wikipedia",
+				"url":"https://en.wikipedia.org/wiki/Flag_of_the_Czech_Republic"
 			}
 		}
 	}
